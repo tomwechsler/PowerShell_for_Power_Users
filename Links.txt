@@ -1,0 +1,5 @@
+https://docs.microsoft.com/en-us/powershell/
+
+https://www.planetpowershell.com/
+
+https://powershell.org/
