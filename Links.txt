@@ -3,3 +3,5 @@ https://docs.microsoft.com/en-us/powershell/
 https://www.planetpowershell.com/
 
 https://powershell.org/
+
+https://devblogs.microsoft.com/powershell-community/
