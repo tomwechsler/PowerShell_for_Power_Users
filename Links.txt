@@ -5,3 +5,5 @@ https://www.planetpowershell.com/
 https://powershell.org/
 
 https://devblogs.microsoft.com/powershell-community/
+
+https://practical365.com/powershell-for-beginners-an-introduction-to-the-basics/
