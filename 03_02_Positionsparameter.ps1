@@ -7,9 +7,9 @@ Get-Service print*
 Get-Service print* -Exclude PrintNotify
 
 #Parameter is not equal to parameter
-Get-Help –Name Get-Service –Parameter Name
+Get-Help -Name Get-Service -Parameter Name
 
-Get-Help –Name Get-Service –Parameter Exclude
+Get-Help -Name Get-Service -Parameter Exclude
 
 #Let's test
 Get-Service print* -Exclude PrintNotify
