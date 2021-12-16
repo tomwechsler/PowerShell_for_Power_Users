@@ -13,10 +13,10 @@ Get-Help Get-ChildItem
 Get-Help Get-ChildItem -Parameter Recurse
 
 #The contents of the current directory and all subdirectories are displayed
-Get-ChildItem –Path C:\Temp -Recurse
+Get-ChildItem -Path C:\Temp -Recurse
 
 #Equivalent is
-Get-ChildItem –Path C:\Temp -Recurse:$true
+Get-ChildItem -Path C:\Temp -Recurse:$true
 
 #$false means as if -Recurse had not been used
-Get-ChildItem –Path C:\Temp -Recurse:$false
+Get-ChildItem -Path C:\Temp -Recurse:$false
