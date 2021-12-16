@@ -38,16 +38,16 @@ gcm gcm
 gcm -Noun Computer
 
 #Do not?
-gps | ? ws -gt 25MB | sort ws -d | select –p Name,WS -f 5
+gps | ? ws -gt 25MB | sort ws -d | select -p Name,WS -f 5
 
 #That's ok
-Get-Process | Where-Object {$_.WorkingSet64 -GT 25MB} | Sort-Object -Property WorkingSet64 -Descending | Select-Object –Property Name, WorkingSet64 -First 5
+Get-Process | Where-Object {$_.WorkingSet64 -GT 25MB} | Sort-Object -Property WorkingSet64 -Descending | Select-Object -Property Name, WorkingSet64 -First 5
 
 #Export
 Export-Alias -Path .\alias-liste.csv
 
 #Import
-Import-Alias -Path .\alias-liste.csv –Force
+Import-Alias -Path .\alias-liste.csv -Force
 
 #You can create your own aliases, but you should not use them. 
 #They are available only on your computer. Also, do not use aliases in scripts and certainly not custom aliases.
