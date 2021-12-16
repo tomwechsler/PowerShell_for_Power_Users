@@ -26,13 +26,13 @@ Find-Module -Name PowerShellGet -MinimumVersion 2.2.5
 Find-Module -Name PowerShellGet -Repository PSGallery
 
 #Find a module by name
-Find-Module –Name NewRandomPassword
+Find-Module -Name NewRandomPassword
 
 #Install the module
-Install-Module –Name NewRandomPassword
+Install-Module -Name NewRandomPassword
 
 #Is it available
-Get-Module –ListAvailable –Name NewRandomPassword
+Get-Module -ListAvailable -Name NewRandomPassword
 
 #Just an example
 Get-Help New-RandomPassword
