@@ -23,7 +23,7 @@ Get-PSDrive -PSProvider Alias, Variable
 
 #Set the location
 Set-Location Alias:
-Set-Location -Path C:
+Set-Location -Path C:\
 (Get-PSDrive -Name C).CurrentLocation
 
 Get-Location
