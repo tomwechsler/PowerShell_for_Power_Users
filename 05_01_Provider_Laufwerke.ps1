@@ -255,7 +255,7 @@ Set-ItemProperty -Path .\process.txt -Name LastWriteTime -Value ((Get-Date).AddD
 #Create registry entries and values
 Set-Location HKLM:\SOFTWARE\
 New-Item -Name ZumTesten
-Set-Location –Path .\ZumTesten
+Set-Location -Path .\ZumTesten
 New-ItemProperty -Path . -Name Firma -Value Meine
 New-ItemProperty -Path . -Name Kollegen -Value 1255
 
