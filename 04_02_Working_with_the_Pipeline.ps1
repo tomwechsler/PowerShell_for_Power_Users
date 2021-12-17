@@ -258,7 +258,7 @@ Get-Process | Out-Host -Paging | Select-Object -Property ProcessName, Id
 Get-Process | Select-Object -Property ProcessName, Id | Out-Host -Paging
 
 #Ceates a text file
-Get-History | Out-Host -FilePath .\commandlist.txt
+Get-History | Out-File -FilePath .\commandlist.txt
 
 #-NoClobber parameter causes PowerShell to generate an error message and thus protects the original file from being replaced.
 Get-ChildItem | Out-File -FilePath .\listing.txt -NoClobber
