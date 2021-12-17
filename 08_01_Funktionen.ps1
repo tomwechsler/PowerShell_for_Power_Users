@@ -17,7 +17,7 @@ function functionname
 #the statement block of a new function named according to the usual naming conventions.
 function Get-AD_Greeting
 {
-Write-Host "Schöne Grüsse aus der Schweiz!"
+Write-Host "SchÃ¶ne GrÃ¼sse aus der Schweiz!"
 }
 
 Get-AD_Greeting
@@ -30,10 +30,6 @@ Product, ProductVersion, Path, StartTime
 }
 
 Get-AD_PwshInfo
-
-#Instead of the pipeline used above, we can also formulate more clearly
-$pwsh = Get-Process -Name pwsh
-Select-Object -InputObject $pwsh -Property Name, Id, Product, ProductVersion, Path, StartTime
 
 #Leap year?
 function Get-AD_LeapYear
