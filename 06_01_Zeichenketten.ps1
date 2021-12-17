@@ -53,7 +53,7 @@ Get-ChildItem -Path "C:\Temp"
 
 #Backtick
 Get-Process `
--Name "pswh" `
+-Name "pwsh" `
 -FileVersionInfo
 
 #Some " examples
