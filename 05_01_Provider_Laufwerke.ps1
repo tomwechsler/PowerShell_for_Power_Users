@@ -29,7 +29,7 @@ Set-Location -Path C:\
 Get-Location
 Set-Location HKLM:
 Set-Location -Path .\Software\Microsoft\
-Set-Location C:
+Set-Location C:\
 
 Get-Location -PSDrive HKLM
 Get-Location -PSDrive C
