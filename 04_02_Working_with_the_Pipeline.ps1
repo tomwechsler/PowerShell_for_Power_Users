@@ -211,7 +211,7 @@ Get-Command -ParameterName InputObject
 Get-Process | Select-Object -Property Id, ProcessName, WS, CPU, StartTime | ConvertTo-Html -Title "Aktuelle Prozesse" -Body "<h1>Liste der Daten zu aktuell laufenden Prozessen</h1>" -PostContent "<p><i>Das war alles. Ich helfe gern wieder...</i></p>" | Out-File .\prozesse.html
 
 #JSON File
-Get-IUCulture | ConvertTo-Json | Out-File .\culture.json
+Get-UICulture | ConvertTo-Json | Out-File .\culture.json
 
 #We get only a short output showing the XML version and the output that the output document contains objects
 #For further processing it is recommended to assign a variable or export to a file
