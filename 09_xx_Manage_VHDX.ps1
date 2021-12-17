@@ -11,7 +11,7 @@ $VHDs | Where-Object Path -like "C:\Users\Public\*" | Select-Object Path
 ($VHDs | Select-Object Path).path -replace "[^\\]*\.a?vhdx?","" | Sort-Object -Uniq
 
 #Calculate space consumption of VHDs
-$VHDs | %{$FS += $_.FileSize}; $FS/1GB
+$VHDs | ForEach-Object {$FS += $_.FileSize}; $FS/1GB
 
 #Sort VHDs by size
 $VHDs | Sort-Object -Descending -Property FileSize | Select-Object Path, @{Name="GByte";Expression={$_.FileSize/1GB}}
