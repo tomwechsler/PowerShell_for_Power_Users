@@ -34,8 +34,6 @@ Get-ChildItem -Path "C:\Temp"
 
 "Heute: " + (Get-Date)
 
-(Get-Date) + " (das ist heute)."
-
 #The PowerShell converts the second value based on the first value
 5 * "38"
 
