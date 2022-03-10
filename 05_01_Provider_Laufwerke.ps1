@@ -115,7 +115,7 @@ Get-Content .\process.txt -Tail 10
 (Get-Content .\process.txt)[5]
 
 #The text is added to the file
-Set-Content -Path .\notiz.txt -Value "Das ist ein neuer Text"
+Add-Content -Path .\notiz.txt -Value "Das ist ein neuer Text"
 
 #The result before the pipeline is written to the file
 Get-ChildItem -Path $HOME | Set-Content -Path .\listing.txt
