@@ -246,7 +246,7 @@ Get-ItemProperty C:\Windows\ | Select-Object -Property *
 Get-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion
 
 #The file is marked as read-only
-Set-ItemProperty -Path .\process.txt -Name IsReadOnly -Value $false
+Set-ItemProperty -Path .\process.txt -Name IsReadOnly -Value $true
 
 Get-ItemProperty -Path .\process.txt
 
