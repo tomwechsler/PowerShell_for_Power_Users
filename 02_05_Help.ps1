@@ -1,7 +1,9 @@
 Clear-Host
 
+#Help about Get-TimeZone
 Get-Help -Name Get-TimeZone
 
+#Online help about Get-TimeZone
 Get-Help -Name Get-TimeZone -Online
 	
 #https://docs.microsoft.com/de-de/powershell/module/
