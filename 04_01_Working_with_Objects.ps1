@@ -21,6 +21,7 @@ calc.exe
 #As we already know we can use Get-Member to locate the properties and methods
 Get-Process
 
+#Get more information
 Get-Process | Get-Member
 
 #Work with the properties
