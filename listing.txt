@@ -1,0 +1,38 @@
+
+    Directory: C:\GitHub\PowerShell_for_Power_Users
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22.09.2022    09:04            382 02_01_Get-Command.ps1
+-a---          22.09.2022    09:04           1166 02_02_Get-Alias.ps1
+-a---          22.09.2022    09:04            259 02_03_Get-Member.ps1
+-a---          22.09.2022    09:04           1177 02_04_Module.ps1
+-a---          22.09.2022    09:04            778 02_05_Help.ps1
+-a---          22.09.2022    09:04            435 03_01_Positionsparameter.ps1
+-a---          22.09.2022    09:04            624 03_02_Switchparameter.ps1
+-a---          22.09.2022    09:04            265 03_04_WhatIf_Confirm.ps1
+-a---          22.09.2022    09:04            790 04_01_Working_with_Objects.ps1
+-a---          22.09.2022    09:04           9803 04_02_Working_with_the_Pipeline.ps1
+-a---          22.09.2022    09:04            455 04_15_Lösung_1.ps1
+-a---          22.09.2022    09:04           9401 05_01_Provider_Laufwerke.ps1
+-a---          22.09.2022    09:04           1332 06_01_Zeichenketten.ps1
+-a---          22.09.2022    09:04           2694 07_01_Profile.ps1
+-a---          22.09.2022    09:04           2706 08_01_Funktionen.ps1
+-a---          22.09.2022    09:04            203 09_05_Lösung_2.ps1
+-a---          22.09.2022    09:04            449 09_08_Lösung_3.ps1
+-a---          22.09.2022    09:04           2334 09_xx_Manage_VHDX.ps1
+-a---          22.09.2022    09:04            833 09_xx_Tipps.ps1
+-a---          22.09.2022    09:04           3033 common.txt
+-a---          22.09.2022    13:22            191 culture.csv
+-a---          22.09.2022    13:28           9511 culture.json
+-a---          22.09.2022    13:13            881 geheim.xml
+-a---          22.09.2022    11:20            331 gesamt.txt
+-a---          22.09.2022    09:04            250 Links.txt
+-a---          22.09.2022    13:50              0 listing.txt
+-a---          22.09.2022    11:20            331 momentan.txt
+-a---          22.09.2022    09:04            502 PowerShell_Compatability.ps1
+-a---          22.09.2022    11:21          10353 process.txt
+-a---          22.09.2022    13:21            117 prozess-pwsh.csv
+-a---          22.09.2022    13:25          17405 prozesse.html
+-a---          22.09.2022    09:04             76 README.md
+
